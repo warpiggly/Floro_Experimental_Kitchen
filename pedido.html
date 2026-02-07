@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacer Pedido - Floro Cocina Experimental</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-text"><img src="/IMG/logo.png" alt="Ensalada Gourmet">FLORO</span>
+                    <span class="logo-subtitle">Experimental Kitchen</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Postres & Comidas</a></li>
+                <li><a href="pedido.html" class="active">Hacer Pedido</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Realizar Pedido</h1>
+        <p>Selecciona tus platillos favoritos y los llevaremos a tu puerta</p>
+    </section>
+
+    <!-- Order Section -->
+    <section class="order-section">
+        <div class="container">
+            <div class="order-grid">
+                <!-- Menu Selection -->
+                <div class="order-menu">
+                    <h2>Selecciona tus Platillos</h2>
+                    
+                    <!-- Categoría: Entradas -->
+                    <div class="order-category">
+                        <h3 class="category-header">🥗 Entradas</h3>
+                        <div class="order-items">
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_talvjetalvjetalv.png" alt="Ensalada">
+                                <div class="order-item-info">
+                                    <h4>Pan artesanal</h4>
+                                    <p class="item-price">$9.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="ensalada-cesar">-</button>
+                                    <span class="qty-display" data-item="ensalada-cesar">0</span>
+                                    <button class="qty-btn plus" data-item="ensalada-cesar" data-price="9.99" data-name="Ensalada César Premium">+</button>
+                                </div>
+                            </div>
+
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_5fxxmq5fxxmq5fxx.png" alt="Bruschetta">
+                                <div class="order-item-info">
+                                    <h4>Palitos de queso hojaldados</h4>
+                                    <p class="item-price">$8.50</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="bruschetta">-</button>
+                                    <span class="qty-display" data-item="bruschetta">0</span>
+                                    <button class="qty-btn plus" data-item="bruschetta" data-price="8.50" data-name="Bruschetta Caprese">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Platos Principales -->
+                    <div class="order-category">
+                        <h3 class="category-header">🍝 Platos Principales</h3>
+                        <div class="order-items">
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_2wi7q42wi7q42wi7.png" alt="Risotto">
+                                <div class="order-item-info">
+                                    <h4>Patacón con carne desmechada</h4>
+                                    <p class="item-price">$19.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="risotto">-</button>
+                                    <span class="qty-display" data-item="risotto">0</span>
+                                    <button class="qty-btn plus" data-item="risotto" data-price="19.99" data-name="Risotto de Hongos">+</button>
+                                </div>
+                            </div>
+
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_o2yl6go2yl6go2yl.png" alt="Salmón">
+                                <div class="order-item-info">
+                                    <h4>Arepa rellena</h4>
+                                    <p class="item-price">$22.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="salmon">-</button>
+                                    <span class="qty-display" data-item="salmon">0</span>
+                                    <button class="qty-btn plus" data-item="salmon" data-price="22.99" data-name="Salmón a la Parrilla">+</button>
+                                </div>
+                            </div>
+
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_u90g5ou90g5ou90g.png" alt="Filete">
+                                <div class="order-item-info">
+                                    <h4>Fiambre</h4>
+                                    <p class="item-price">$28.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="filete">-</button>
+                                    <span class="qty-display" data-item="filete">0</span>
+                                    <button class="qty-btn plus" data-item="filete" data-price="28.99" data-name="Filete Mignon">+</button>
+                                </div>
+                            </div>
+
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_nd11ytnd11ytnd11.png" alt="Pizza">
+                                <div class="order-item-info">
+                                    <h4>Hamburguesa gourmet</h4>
+                                    <p class="item-price">$18.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="pizza">-</button>
+                                    <span class="qty-display" data-item="pizza">0</span>
+                                    <button class="qty-btn plus" data-item="pizza" data-price="18.99" data-name="Pizza Trufa Negra">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Postres -->
+                    <div class="order-category">
+                        <h3 class="category-header">🍰 Postres</h3>
+                        <div class="order-items">
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_36zfve36zfve36zf.png" alt="Cheesecake">
+                                <div class="order-item-info">
+                                    <h4>Postres de sabores diferentes</h4>
+                                    <p class="item-price">$8.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="cheesecake">-</button>
+                                    <span class="qty-display" data-item="cheesecake">0</span>
+                                    <button class="qty-btn plus" data-item="cheesecake" data-price="8.99" data-name="Cheesecake Frutos Rojos">+</button>
+                                </div>
+                            </div>
+
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_cv2yrwcv2yrwcv2y.png" alt="Tiramisú">
+                                <div class="order-item-info">
+                                    <h4>Mini torta de zanahoria</h4>
+                                    <p class="item-price">$7.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="tiramisu">-</button>
+                                    <span class="qty-display" data-item="tiramisu">0</span>
+                                    <button class="qty-btn plus" data-item="tiramisu" data-price="7.99" data-name="Tiramisú Clásico">+</button>
+                                </div>
+                            </div>
+
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_qvq6huqvq6huqvq6.png" alt="Brownie">
+                                <div class="order-item-info">
+                                    <h4>Torta de naranja</h4>
+                                    <p class="item-price">$6.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="brownie">-</button>
+                                    <span class="qty-display" data-item="brownie">0</span>
+                                    <button class="qty-btn plus" data-item="brownie" data-price="6.99" data-name="Brownie de Chocolate">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categoría: Bebidas -->
+                    <div class="order-category">
+                        <h3 class="category-header">🍹 Bebidas</h3>
+                        <div class="order-items">
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_e6r9zle6r9zle6r9.png" alt="Cóctel">
+                                <div class="order-item-info">
+                                    <h4>Milo</h4>
+                                    <p class="item-price">$9.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="coctel">-</button>
+                                    <span class="qty-display" data-item="coctel">0</span>
+                                    <button class="qty-btn plus" data-item="coctel" data-price="9.99" data-name="Cóctel de la Casa">+</button>
+                                </div>
+                            </div>
+
+                            <div class="order-item">
+                                <img src="/IMG/Gemini_Generated_Image_sl68sbsl68sbsl68.png" alt="Limonada">
+                                <div class="order-item-info">
+                                    <h4>Soda de tamarindo</h4>
+                                    <p class="item-price">$4.99</p>
+                                </div>
+                                <div class="quantity-controls">
+                                    <button class="qty-btn minus" data-item="limonada">-</button>
+                                    <span class="qty-display" data-item="limonada">0</span>
+                                    <button class="qty-btn plus" data-item="limonada" data-price="4.99" data-name="Limonada de Hierbabuena">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="order-summary">
+                    <div class="summary-card">
+                        <h2>Resumen del Pedido</h2>
+                        <div id="cart-items" class="cart-items">
+                            <p class="empty-cart">Tu carrito está vacío</p>
+                        </div>
+                        <div class="summary-totals">
+                            <div class="summary-row">
+                                <span>Subtotal:</span>
+                                <span id="subtotal">$0.00</span>
+                            </div>
+                            <div class="summary-row">
+                                <span>Envío:</span>
+                                <span id="shipping">$5.00</span>
+                            </div>
+                            <div class="summary-row total">
+                                <span>Total:</span>
+                                <span id="total">$5.00</span>
+                            </div>
+                        </div>
+
+                        <div class="customer-form">
+                            <h3>Información de Entrega</h3>
+                            <form id="order-form">
+                                <div class="form-group">
+                                    <input type="text" id="name" placeholder="Nombre completo" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" placeholder="Teléfono" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="address" placeholder="Dirección de entrega" rows="3" required></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="notes" placeholder="Notas especiales (opcional)" rows="2"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <select id="payment" required>
+                                        <option value="">Método de pago</option>
+                                        <option value="efectivo">Efectivo</option>
+                                        <option value="tarjeta">Tarjeta de crédito</option>
+                                        <option value="transferencia">Transferencia</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="submit-order" id="submit-btn" disabled>
+                                    Confirmar Pedido
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <div class="success-icon">✓</div>
+            <h2>¡Pedido Confirmado!</h2>
+            <p>Tu pedido ha sido recibido exitosamente.</p>
+            <p class="order-number">Número de orden: <strong id="order-number"></strong></p>
+            <p>Te contactaremos pronto para confirmar la entrega.</p>
+            <button class="modal-btn" onclick="closeModal()">Aceptar</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Floro Cocina Experimental</h3>
+                    <p>Innovación culinaria que despierta tus sentidos cada semana.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="menu.html">Menú</a></li>
+                        <li><a href="pedido.html">Pedidos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Horarios</h4>
+                    <ul>
+                        <li>Lunes - Viernes: 11am - 10pm</li>
+                        <li>Sábado: 12pm - 11pm</li>
+                        <li>Domingo: 12pm - 9pm</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>📞 +57 123 456 7890</li>
+                        <li>📧 info@florococina.com</li>
+                        <li>📍 Medellín, Colombia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Floro Cocina Experimental. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

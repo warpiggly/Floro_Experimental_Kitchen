@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Floro Cocina Experimental</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-text"><img src="/IMG/logo.png" alt="Ensalada Gourmet">FLORO</span>
+                    <span class="logo-subtitle">Experimental Kitchen</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html" class="active">Postres & Comidas</a></li>
+                <li><a href="pedido.html">Hacer Pedido</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Nuestro Menú</h1>
+        <p>Explora nuestra selección de platillos y postres únicos</p>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="entradas">Entradas</button>
+                <button class="filter-btn" data-category="principales">Platos Principales</button>
+                <button class="filter-btn" data-category="postres">Postres</button>
+                <button class="filter-btn" data-category="bebidas">Bebidas</button>
+            </div>
+
+            <!-- Entradas -->
+            <div class="menu-section">
+                <h2 class="category-title">🥗 Entradas</h2>
+                <div class="menu-items-grid">
+                    <div class="menu-item" data-category="entradas">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_talvjetalvjetalv.png" alt="Ensalada César">
+                        </div>
+                        <div class="item-details">
+                            <h3>Pan artesanal</h3>
+                            <p>Pan hecho a mano, fresco y fragante, con el sabor auténtico de lo simple y bien hecho.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$9.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="entradas">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_5fxxmq5fxxmq5fxx.png" alt="Bruschetta">
+                        </div>
+                        <div class="item-details">
+                            <h3>Palitos de queso hojaldados</h3>
+                            <p>Hojaldre crujiente relleno de queso derretido, dorado al punto perfecto.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$8.50</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Platos Principales -->
+            <div class="menu-section">
+                <h2 class="category-title">🍝 Platos Principales</h2>
+                <div class="menu-items-grid">
+                    <div class="menu-item" data-category="principales">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_2wi7q42wi7q42wi7.png" alt="Risotto">
+                        </div>
+                        <div class="item-details">
+                            <h3>Patacón con carne desmechada</h3>
+                            <p>Patacón crujiente coronado con carne desmechada, sazón casera y puro sabor colombiano.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$19.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="principales">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_o2yl6go2yl6go2yl.png" alt="Salmón">
+                        </div>
+                        <div class="item-details">
+                            <h3>Arepa rellena</h3>
+                            <p>Arepa dorada y suave, rellena con ingredientes frescos que abrazan el paladar.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$22.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="principales">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_u90g5ou90g5ou90g.png" alt="Filete">
+                        </div>
+                        <div class="item-details">
+                            <h3>Fiambre</h3>
+                            <p>Selección tradicional de sabores colombianos, pensada para compartir y recordar el hogar.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$28.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="principales">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_nd11ytnd11ytnd11.png" alt="Pasta">
+                        </div>
+                        <div class="item-details">
+                            <h3>Hamburguesa gourmet</h3>
+                            <p>Hamburguesa artesanal con ingredientes premium y combinaciones que elevan lo clásico.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$24.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="principales">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_secjuysecjuysecj.png" alt="Cordero">
+                        </div>
+                        <div class="item-details">
+                            <h3>Asado al barril</h3>
+                            <p>Carne cocida lentamente al barril, jugosa y llena de sabor ahumado que honra la tradición.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$26.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Postres -->
+            <div class="menu-section">
+                <h2 class="category-title">🍰 Postres Especiales</h2>
+                <div class="menu-items-grid">
+                    <div class="menu-item" data-category="postres">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_36zfve36zfve36zf.png" alt="Cheesecake">
+                        </div>
+                        <div class="item-details">
+                            <h3>Postres de sabores diferentes</h3>
+                            <p>Postres artesanales que juegan con sabores únicos y combinaciones inesperadas.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$8.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="postres">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_cv2yrwcv2yrwcv2y.png" alt="Tiramisú">
+                        </div>
+                        <div class="item-details">
+                            <h3>Mini torta de zanahoria</h3>
+                            <p>Mini torta húmeda de zanahoria, especiada y suave, hecha con cariño casero.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$7.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="postres">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_qvq6huqvq6huqvq6.png" alt="Brownie">
+                        </div>
+                        <div class="item-details">
+                            <h3>Torta de naranja</h3>
+                            <p>Torta esponjosa de naranja, fresca y aromática, con un toque cítrico natural.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$6.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="postres">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_j4hbj4j4hbj4j4hb.png" alt="Crème Brûlée">
+                        </div>
+                        <div class="item-details">
+                            <h3>Cheesecake de Frutos Rojos</h3>
+                            <p>Cheesecake cremoso con coulis de frutos del bosque y crema batida</p>
+                            <div class="item-footer">
+                                <span class="item-price">$8.50</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bebidas -->
+            <div class="menu-section">
+                <h2 class="category-title">🍹 Bebidas</h2>
+                <div class="menu-items-grid">
+                    <div class="menu-item" data-category="bebidas">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_e6r9zle6r9zle6r9.png" alt="Cócteles">
+                        </div>
+                        <div class="item-details">
+                            <h3>Milo</h3>
+                            <p>Bebida chocolatada cremosa y reconfortante, perfecta para cualquier momento.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$9.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="bebidas">
+                        <div class="item-image">
+                            <img src="/IMG/Gemini_Generated_Image_sl68sbsl68sbsl68.png" alt="Vinos">
+                        </div>
+                        <div class="item-details">
+                            <h3>Soda de tamarindo</h3>
+                            <p>Soda artesanal de tamarindo, refrescante y equilibrada entre dulce y ácido.</p>
+                            <div class="item-footer">
+                                <span class="item-price">$7.99</span>
+                                <button class="quick-add">+ Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Floro Cocina Experimental</h3>
+                    <p>Innovación culinaria que despierta tus sentidos cada semana.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="menu.html">Menú</a></li>
+                        <li><a href="pedido.html">Pedidos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Horarios</h4>
+                    <ul>
+                        <li>Lunes - Viernes: 11am - 10pm</li>
+                        <li>Sábado: 12pm - 11pm</li>
+                        <li>Domingo: 12pm - 9pm</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>📞 +57 123 456 7890</li>
+                        <li>📧 info@florococina.com</li>
+                        <li>📍 Medellín, Colombia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Floro Cocina Experimental. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
