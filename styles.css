@@ -156,7 +156,7 @@ a {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url('/IMG/Gemini_Generated_Image_5spcvc5spcvc5spc.png') center/cover;
+                url('./IMG/Gemini_Generated_Image_5spcvc5spcvc5spc.png') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
